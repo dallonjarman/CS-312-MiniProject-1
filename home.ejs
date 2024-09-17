@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <%- include('../header.ejs') %>
+    <%- include('header.ejs') %>
         <% if (blogList.length < 1) { %>
             <h1 class="no-blog-title">
                 You don't have any blogs yet. Please visit <br />the home page to create a
@@ -46,7 +46,7 @@
                             <% } %>
                         </div>
                     </div>
-                    <%- include('../footer.ejs') %>
+                    <%- include('footer.ejs') %>
 </body>
 
 </html>

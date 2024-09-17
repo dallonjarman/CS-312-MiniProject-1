@@ -13,8 +13,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // Define paths to view files
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const indexPath = join(__dirname, "index.ejs");
-const homePath = join(__dirname, "views/home.ejs");
-const blogDetailsPath = join(__dirname, "views/blogDetails.ejs");
+const homePath = join(__dirname, "/home.ejs");
 
 // Initialize blog list
 let blogList = [];
